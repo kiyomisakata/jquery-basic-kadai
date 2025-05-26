@@ -3,7 +3,7 @@ $(function() {
     $('#target').css('color', 'red');
   });
   $('#change-text').on('click', function() {
-    $('p').text('Hello!');
+    $('#target').text('Hello!');
   });
   $('#fade-out').on('click', function() {
     $('#target').fadeOut();
